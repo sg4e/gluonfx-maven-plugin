@@ -116,6 +116,10 @@
 
   <repositories>
     <repository>
+      <id>my-local</id>
+      <url>file://${user.home}/.m2/repository</url>
+    </repository>
+    <repository>
       <id>gluon-snapshots</id>
       <url>https://nexus.gluonhq.com/nexus/content/repositories/public-snapshots</url>
     </repository>
